@@ -9,6 +9,7 @@ from flask_restx import Api, Resource, fields, reqparse
 import joblib
 from sklearn.feature_extraction.text import TfidfVectorizer
 from flask_cors import CORS
+import pandas as pd
 
 app = Flask(__name__)
 CORS(app)
